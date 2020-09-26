@@ -7,7 +7,7 @@ class Fish extends React.Component {
 		const isAvailable = status === 'available';
 		return (
 			<li className="menu-fish">
-				<img src={image} role="img" aria-label={name} alt={name} />
+				<img src={image} aria-label={name} alt={name} />
 				<h3 className="fish-name">
 					{name}
 					<span>{formatPrice(price)}</span>
